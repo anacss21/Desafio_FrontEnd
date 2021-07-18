@@ -1,0 +1,55 @@
+.container_global{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;   
+}
+.container_superior{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+
+    margin-top: 20px;
+
+    background-image: url(../../assets/home/image-homepage-hero.jpg) ;
+    min-height: 100vh;
+    background-size: cover; 
+}
+.contains_superior{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+ 
+    width: 450px;
+
+    background:white;  
+}
+.container_middle{
+    display: flex;
+    justify-content: center;
+
+    gap: 140px;
+}
+.contains_middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 50%;  
+    border-top: 1px rgba(51, 50, 61, 0.15) solid;
+    border-bottom: 1px rgba(51, 50, 61, 0.15) solid; 
+}
+.container_personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;          
+}
+.contains_personal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    width: 430px;
+    margin-bottom: 24px;  
+}

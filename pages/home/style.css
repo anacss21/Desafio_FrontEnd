@@ -1,0 +1,66 @@
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 56px 28px;
+    
+}
+.informes{
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: #203A4C;
+    color:#FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    gap:30px;
+    width: 200px;
+
+}
+.btn a:hover{
+    background:#5FB4A2;
+}
+.btn a:hover svg{
+    stroke:white;
+}
+.svg{
+    padding: 18px 16px;
+    background-color:rgba(0, 0,0,0.1);
+}
+svg{
+    stroke:#5FB4A2;
+}
+.btn{
+    width:200px;
+}
+.about{
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    margin-bottom: 25px;  
+}
+.paragrafh{
+    font-size: 16px;
+    line-height: 30px;
+}
+.home{
+    margin-top: 150px;
+}
+.home_contact{
+    margin-top: 150px;
+}

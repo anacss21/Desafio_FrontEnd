@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_link{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+.header_link_verde{
+    color: #5FB4A2;
+}
+.image{
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;   
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+}
+a{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+h1{
+    font-family: 'Ibarra Real Nova', serif;  
+    font-style: normal;
+    font-weight: bold;
+
+    color: #33323D;
+}
+p{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+p .projeto_link{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 100px 20px 100px;
+    background: #33323D;
+}
+.footer_global{
+    display: flex;
+    justify-content: space-between;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_img{
+    margin-left: 20px;
+}
+.footer_link{
+    font-family: 'Public Sans', sans-serif;   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn_branco{   
+    border: 1px black solid;
+    margin-top: 10px;
+}
+.btn_branco:hover{
+    background: #33323D;
+}
+.botao_branco{
+    display: flex;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    
+    padding: 17px 28px;
+}
+.botao_branco:hover{
+    color: #FAFAFA
+}
+svg{
+    stroke:#5FB4A2;
+}
+.container_contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contains_contato{
+    width: 450px;
+}
+.btn_contato{   
+    border: 1px black solid;
+    margin-top: 10px;
+}
+.btn_contato:hover{
+    background: #33323D; 
+}
+.botao_contato{
+    display: flex;
+    
+    color: #33323D;
+    
+    padding: 17px 50px;
+}
+.botao_contato:hover{
+    color: #FAFAFA
+}
+.contato{
+    color: #33323D;
+}

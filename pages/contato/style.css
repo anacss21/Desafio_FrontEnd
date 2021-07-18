@@ -1,0 +1,104 @@
+
+.container_contato{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    margin-top: 94px;
+    padding: 54px 54px 0px 0px;
+  
+    border-top: 1px rgba(51, 50, 61, 0.15) solid;
+    border-bottom: 1px rgba(51, 50, 61, 0.15) solid; 
+}
+.contains_contato{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+} 
+.container_input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    margin-top: 94px;
+    padding: 54px 54px 0px 0px;
+  
+    border-top: 1px rgba(51, 50, 61, 0.15) solid;
+    border-bottom: 1px rgba(51, 50, 61, 0.15) solid;   
+
+ 
+}
+.container_input_s{
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+.contains_input_inside{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contains_contato_img{
+    display: flex;
+    align-items: center;
+}
+.contains_contato_img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.contato_img{
+    margin-right: 10px;
+}
+.contains_contato_img{
+    margin-top:  48px;
+}
+label{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+
+    color: #33323D;
+}
+input{
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+
+    padding: 5px 200px;
+}
+#mensagem{
+    height: 96px;
+}
+button{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    width: 162px;
+    padding: 10px 30px;
+    margin-top:  10px;
+
+    color: #FFFFFF;
+    background: #203A4C;
+}
+button:hover{
+    background:#5FB4A2;
+}
+.parte2{
+    margin-bottom: 100px;
+}

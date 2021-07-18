@@ -1,0 +1,38 @@
+.portfolio_geral{
+    padding: 50px 50px;
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    
+    padding: 50px;
+    margin-top: 44px;
+}
+.portfolio_2{
+    display: flex;
+    justify-content: center;
+}
+.box{
+  width:350px;   
+}
+.box_h{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+
+    margin-bottom: 25px;   
+}
+.box_p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+.box_bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+}
+.portolio_contact{
+    margin: 50px 0px;
+}
